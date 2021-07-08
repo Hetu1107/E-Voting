@@ -41,3 +41,11 @@ function get(){
     }
     
 }
+function clock(){
+let counter = document.querySelector('h1');
+let count = 1;
+setInterval(()=>{
+    counter.innerHTML = count;
+    count++;
+},1000)
+}
