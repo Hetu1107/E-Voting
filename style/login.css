@@ -87,7 +87,7 @@ body{
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
-    border: 10px solid rgba(255, 255, 255, 0.712)
+    border: 10px solid rgba(255, 255, 255, 0.712);
 }
 .container .card .content .img img{
     position: absolute;

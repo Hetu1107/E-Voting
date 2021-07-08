@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/info.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+<body>
+    <h1>Host Voting</h1>
+    <div class="container">
+        <div class="batch">
+            <h3>Batch Name (ex: Batch XXDD)</h3>
+            <input type="text" name="batch" id="batch" placeholder="Batch XXDD....">
+        </div>
+        <div class="voters">
+            <h3>Total Number of Voters</h3>
+            <input type="number" name="voters" id="voters" placeholder="no. of voters....">
+        </div>
+        <div class="num">
+            <h3>No. of Option u need (after entering no pls click on generate)</h3>
+            <input type="number" id="member" name="member"  placeholder="no. of options....">
+            <br><br>
+            <a href="#" id="filldetails" class="creat" onclick="addFields()">Generate</a>
+            <div id="container" style="margin-top: 20px; color: rgb(161, 161, 161); font-size: 20px;">
+        </div>
+        <div class="submit">
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
