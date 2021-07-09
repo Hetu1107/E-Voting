@@ -10,28 +10,16 @@
     crossorigin="anonymous" />
      </head>
   <body>
-    <div class="main-container">
+    <input type="number" id="jk">
+    <input type="submit" value="submit" onclick="func()" id="k">
+    <div class="main-container" id="main">
       <h1>Please choose your valuable Vote !!</h1>
-      <div class="radio-buttons">
+      <div class="radio-buttons" id="j">
         <label class="custom-radio">
           <input type="radio" name="radio" />
           <span class="radio-btn"
             ><i class="fas fa-vote-yea"></i>
-              <h2>Hetu Patel</h2>
-          </span>
-        </label>
-        <label class="custom-radio">
-          <input type="radio" name="radio" />
-          <span class="radio-btn"
-            ><i class="fas fa-vote-yea"></i>
-              <h2>Zaid</h2>
-          </span>
-        </label>
-        <label class="custom-radio">
-          <input type="radio" name="radio" />
-          <span class="radio-btn"
-            ><i class="fas fa-vote-yea"></i>
-              <h2>Mohit</h2>
+              <h2></h2>
           </span>
         </label>
       </div>
@@ -39,5 +27,6 @@
         <button type="submit" onclick="get()">Submit</button>
     </div>
     </div>
+    <script src="/script/vote.js"></script>
   </body>
 </html>
